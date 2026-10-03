@@ -1,0 +1,28 @@
+generated: '2026-10-03'
+method: searched
+source: https://www.safe.com/legal/#privacy-policy
+signals:
+  data_subject_request:
+    note: Provides rights of access, erasure, and restriction.
+    evidence:
+      - http_status: 200
+        fetched: regulatory/safe-software-privacy.html
+        quote: "You can request to see what data an organization holds about you."
+      - http_status: 200
+        fetched: regulatory/safe-software-privacy.html
+        quote: "You can request that your Personal Information be deleted under certain circumstances."
+      - http_status: 200
+        fetched: regulatory/safe-software-privacy.html
+        quote: "You can request that the use of your Personal Information be limited."
+  data_retention:
+    note: Specifies 30‑day retention period for user content.
+    evidence:
+      - http_status: 200
+        fetched: regulatory/safe-software-privacy.html
+        quote: "Upon termination of the Online Services, Safe Software shall retain Your Content for a period of 30 days. After the expiration of this period, Safe Software will delete Your Content in accordance with its data retention policy."
+  accessibility_conformance:
+    note: Declares compliance with WCAG 2.2 Level AA and Section 508.
+    evidence:
+      - http_status: 200
+        fetched: regulatory/safe-software-privacy.html
+        quote: "Safe Software aims to provide an accessible digital property that conforms to Section 508 Guidelines and the World Wide Web Consortium’s Accessibility Guidelines (WCAG) 2.2 Level AA."

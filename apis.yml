@@ -1,23 +1,104 @@
 aid: safe-software
+
 name: Safe Software
-description: 'Safe Software is a company surfaced via the API Evangelist harvest backlog (source: gartner-mq)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.safe.com/wp-content/uploads/2023/03/18102711/safe-social.jpg
+
+description: Safe Software builds FME, a powerful data integration platform that connects any data source to any destination, enabling organizations
+  to automate complex workflows, perform spatial analytics, and leverage AI. With over 25,000 customers worldwide, Safe Software helps turn data
+  into actionable insights across industries such as transportation, utilities, government, and more.
+
 url: https://raw.githubusercontent.com/api-evangelist/safe-software/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:gartner-mq
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-03 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-03'
+
 modified: '2026-10-03'
+
 tags:
 - Company
-apis: []
+- Data Integration
+- Spatial Analytics
+- AI
+- Enterprise
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: SecurityTxt
+  url: well-known/safe-software-status-security.txt
+- type: WellKnown
+  url: well-known/safe-software-well-known.yml
+- type: TermsOfService
+  url: https://community.safe.com/site/terms
+- type: Compliance
+  url: https://trust.safe.com/
+- type: Conformance
+  url: conformance/safe-software-conformance.yml
+- type: LLMsTxt
+  url: llms/safe-software-llms.txt
+- type: Hosts
+  url: hosts/safe-software-hosts.yml
+- type: Vendors
+  url: vendors/safe-software-vendors.yml
+- type: StatusPage
+  url: https://status.safe.com/
+- type: SignUp
+  url: https://community.safe.com/member/register
+- type: Security
+  url: https://fme.safe.com/security/
+- type: TrustCenter
+  url: security/safe-software-trust-center.yml
+- type: DomainSecurity
+  url: security/safe-software-domain-security.yml
 - type: Website
   url: https://www.safe.com
+- type: DeveloperPortal
+  url: https://fme.safe.com
+- type: Documentation
+  url: https://fme.safe.com/get-started/
+- type: APIReference
+  url: https://fme.safe.com/platform/
+- type: GettingStarted
+  url: https://fme.safe.com/get-started/
+- type: Support
+  url: https://support.safe.com/hc/en-us/p/Support
+- type: Blog
+  url: https://fme.safe.com/blog/
+- type: Pricing
+  url: https://fme.safe.com/pricing/
+- type: PrivacyPolicy
+  url: https://www.safe.com/legal/privacy-policy/
+
+apis:
+- name: FME Platform API
+  description: API for Safe Software's FME platform, enabling data integration and automation.
+  humanURL: https://fme.safe.com/platform/
+  aid: safe-software:fme-platform-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Developer portal pages render via JavaScript, preventing retrieval of a machine‑readable OpenAPI spec.
+  evidence:
+  - url: https://fme.safe.com/platform/
+    status: 200
+  checked: '2026-10-03'
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
