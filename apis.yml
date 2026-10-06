@@ -21,7 +21,7 @@ specificationVersion: '0.20'
 
 created: '2026-10-03'
 
-modified: '2026-10-03'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -37,6 +37,10 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.safe.com/updates/
+  type: Blog
+- url: https://www.safe.com/feed/
+  type: BlogRSS
 - type: SecurityTxt
   url: well-known/safe-software-status-security.txt
 - type: WellKnown
