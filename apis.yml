@@ -37,6 +37,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Plans
+  url: plans/safe-software-plans-pricing.yml
 - url: https://www.safe.com/updates/
   type: Blog
 - url: https://www.safe.com/feed/
