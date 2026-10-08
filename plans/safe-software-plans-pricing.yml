@@ -34,3 +34,30 @@ plans:
   price_text: free licenses
   period: none
   included_quota: Students (free 4-month FME Form license), humanitarian organizations, teachers and educators
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Tailored subscription
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Annual Maintenance
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - year
+  - name: FME Grant Program
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
