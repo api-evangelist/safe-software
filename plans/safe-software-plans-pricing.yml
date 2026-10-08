@@ -1,0 +1,36 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://fme.safe.com/pricing/
+sources:
+- https://fme.safe.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Download and license up-to-date software versions as they become available.
+published: false
+note: No numeric price is published on the pricing page; Pricing page states a tailored/negotiated subscription
+  model with no numeric prices; only free grant licenses mentioned.
+plan_count: 3
+plans:
+- name: Tailored subscription
+  price_text: Contact Our Sales Team
+  period: none
+  included_quota: Unlimited access to FME Platform, unlimited web users, unlimited system connections,
+    free instructor led training
+- name: Annual Maintenance
+  price_text: Contact Sales To Learn More
+  period: year
+  included_quota: Software updates, security updates, technical support; included with purchase of all
+    FME products for the first year
+- name: FME Grant Program
+  price_text: free licenses
+  period: none
+  included_quota: Students (free 4-month FME Form license), humanitarian organizations, teachers and educators
