@@ -1,0 +1,13 @@
+fetched: '2026-10-14'
+method: fetched
+source: https://docs.safe.com/fme/html/FME-Form-Documentation/FME-ReadersWriters/ogcfeatures/ogcfeatures.htm
+page: https://docs.safe.com/fme/html/FME-Form-Documentation/FME-ReadersWriters/ogcfeatures/ogcfeatures.htm
+file: safe-software-ogc-1.md
+bytes: 800
+sha256: 10bfd1517ba314fe580247becb7db409b0115b7edcf5034ec3604c427abe6aa2
+anchor: ogc
+shape: ogc
+shapes_declared: []
+classification: no-compatibility-statement
+quote: null
+note: text extracted from the provider's own page (tags stripped), saved for evidence
